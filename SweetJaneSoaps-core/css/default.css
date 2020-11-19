@@ -31,6 +31,12 @@ footer {
 .homepage-blog-posts div#postContent {
     height: 127px;
 }
+#mobile-menu-trigger2 {
+    margin: 6px;
+    color: #404242;
+    font-size: 18px;
+    line-height: 1.85
+}
 @media (max-width: 991px){
 .product-items.productList .product-item .img {
     padding-right: 0;

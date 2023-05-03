@@ -2,7 +2,7 @@
 ** Bootstrap over-rides
 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600;700&display=swap');
-.antiCls, .antiCls-xs { 
+.antiCls { 
     visibility: hidden; 
 }
 .flex-direction-nav a, .flex-viewport {

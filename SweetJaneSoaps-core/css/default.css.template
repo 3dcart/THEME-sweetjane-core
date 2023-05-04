@@ -1,7 +1,20 @@
 /*
 ** Bootstrap over-rides
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600;700&display=swap');
+.antiCls, .antiCls-xs { 
+    visibility: hidden; 
+}
+.flex-direction-nav a, .flex-viewport {
+	transform: translateZ(0);
+	will-change: transform;
+}
+.fullwidth-slider.flexslider {
+    border-radius:0;
+}
+.fullwidth-slider img{
+    width: 100%;
+}
 html, body {
   height: 100%;
 }
@@ -66,7 +79,11 @@ footer {
 		min-height: auto;
 	}
 }
-
+@media (max-width: 767px) {
+	.antiCls-xs { 
+		visibility: hidden; 
+	}
+}
 body {
 	font-family: 'Montserrat', sans-serif;
 	background: #fff;
@@ -1281,7 +1298,7 @@ ul.extrapages li a {
 .mailist-box form{
     margin:auto;
 }
-.mailist-box h3 {
+.mailist-box h2 {
 	font-size: 18px;
 	line-height: 20px;
 	letter-spacing: 0px;
@@ -1293,12 +1310,12 @@ ul.extrapages li a {
 	padding: 10px 0;
 }
 @media (min-width: 992px) {
-	.mailist-box h3 {
+	.mailist-box h2 {
 		/* text-align: left; */
 	}
 }
 @media (min-width: 1200px) {
-	.mailist-box h3 {
+	.mailist-box h2 {
 		/* font-size: 20px; */
 	}
 }

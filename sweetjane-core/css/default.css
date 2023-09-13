@@ -23,6 +23,7 @@ body {
   height: 100%;
   flex-direction: column;
 }
+#mobSearch{display:none !important}
 #skip a
 {
 position:absolute;
